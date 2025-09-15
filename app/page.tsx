@@ -3,18 +3,19 @@ import PostCard from "../components/PostCard";
 // Mock de posts
 const posts = [
   {
-    slug: "primeiro-post",
-    title: "Meu Primeiro Post",
-    excerpt: "Esse é o resumo do meu primeiro post no blog...",
-    date: "2025-09-15",
+    slug: 'primeiro-post',
+    title: 'Meu Primeiro Post',
+    excerpt: 'Olá! Sou Robson Oliveira Gomes Junior, Desenvolvedor Full Stack...',
+    date: '2025-09-15',
   },
   {
-    slug: "segundo-post",
-    title: "Segundo Post",
-    excerpt: "Resumo do segundo post, aprendendo Next.js 15!",
-    date: "2025-09-14",
+    slug: 'segundo-post',
+    title: 'Segundo Post',
+    excerpt: 'Hobbie: Desenho e artes visuais...',
+    date: '2025-09-14',
   },
 ];
+
 
 export default function HomePage() {
   return (
