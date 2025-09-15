@@ -5,9 +5,24 @@ const posts = [
   {
     slug: 'primeiro-post',
     title: 'Meu Primeiro Post',
-    content: 'Esse é o conteúdo completo do meu primeiro post...',
+    content: `
+Olá! Sou Robson Oliveira Gomes Junior, Desenvolvedor Full Stack com experiência prática em desenvolvimento web e construção de soluções escaláveis e integradas, utilizando tecnologias como Java, Spring Boot, React, .NET, C#, JavaScript, MySQL e MongoDB.
+
+
+    `,
     date: '2025-09-15',
-    author: 'Robson Junior',
+    author: 'Robson Oliveira Gomes Junior',
+  },
+  {
+    slug: 'segundo-post',
+    title: 'Segundo Post',
+    content: `
+Hobbie: Desenho. Desenhista Autodidata. Para visualizar os meus desenhos me siga nas minhas redes sociais, fixada no rodapé da página.
+
+
+    `,
+    date: '2025-09-14',
+    author: 'Robson Oliveira Gomes Junior',
   },
   {
     slug: 'segundo-post',
